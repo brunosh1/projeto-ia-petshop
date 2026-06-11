@@ -39,7 +39,7 @@ Este projeto resolve essa dor treinando um modelo de Machine Learning com o hist
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/projeto-ia-petshop.git
+   git clone  https://github.com/brunosh1/projeto-ia-petshop.git
    cd projeto-ia-petshop
 
 2. (Opcional) Crie e ative um ambiente virtual:
