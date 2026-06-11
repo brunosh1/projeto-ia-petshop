@@ -41,3 +41,46 @@ Este projeto resolve essa dor treinando um modelo de Machine Learning com o hist
    ```bash
    git clone https://github.com/SEU-USUARIO/projeto-ia-petshop.git
    cd projeto-ia-petshop
+
+2. (Opcional) Crie e ative um ambiente virtual:
+
+bash
+Copiar
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1   # Windows
+
+3. Instale as dependências:
+
+bash
+Copiar
+pip install pandas numpy scikit-learn matplotlib openpyxl
+
+4. Execute o programa:
+
+bash
+Copiar
+python previsao_estoque.py
+
+
+📊 Resultados obtidos
+Avaliação do modelo:
+
+MAE (erro médio absoluto): 6,17 unidades
+RMSE (raiz do erro quadrático médio): 8,03 unidades
+Sugestão de estoque para o próximo mês:
+
+<img width="683" height="119" alt="image" src="https://github.com/user-attachments/assets/689824da-e51a-47ee-b7ee-fbf51766f85a" />
+
+Categoria	Demanda Prevista	Sugestão de Estoque (+10%)
+GATO	16	18
+CACHORRO	15	17
+📁 Arquivos gerados pelo programa
+previsao_estoque_proximo_mes.csv — tabela com a previsão de estoque
+grafico_historico_demanda.png — evolução das vendas mensais por categoria
+grafico_real_x_previsto.png — comparação entre valores reais e previstos
+💡 Considerações
+O histórico de vendas utilizado é curto e irregular, o que limita a precisão do modelo. Com a continuidade da coleta de dados pela loja, a tendência é que as previsões fiquem cada vez mais assertivas. O projeto demonstra que mesmo um modelo simples de IA pode gerar valor real para a gestão de um pequeno comércio.
+
+👤 Autor
+Bruno dos Santos Hermínio — Análise e Desenvolvimento de Sistemas
+Disciplina: Inteligência Artificial para Devs — 2026.1
