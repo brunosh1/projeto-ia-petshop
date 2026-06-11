@@ -44,20 +44,20 @@ Este projeto resolve essa dor treinando um modelo de Machine Learning com o hist
 
 2. (Opcional) Crie e ative um ambiente virtual:
 
-bash
+   '''bash
 Copiar
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1   # Windows
 
 3. Instale as dependências:
 
-bash
+   '''bash
 Copiar
 pip install pandas numpy scikit-learn matplotlib openpyxl
 
 4. Execute o programa:
 
-bash
+   '''bash
 Copiar
 python previsao_estoque.py
 
