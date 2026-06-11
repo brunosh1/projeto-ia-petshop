@@ -48,12 +48,11 @@ Este projeto resolve essa dor treinando um modelo de Machine Learning com o hist
    .\.venv\Scripts\Activate.ps1   # Windows
 
 3. Instale as dependências:
-
+   ```bash
    pip install pandas numpy scikit-learn matplotlib openpyxl
 
 4. Execute o programa:
-
-   '''bash
+   ```bash
    python previsao_estoque.py
 
 
