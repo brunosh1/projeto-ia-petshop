@@ -43,14 +43,12 @@ Este projeto resolve essa dor treinando um modelo de Machine Learning com o hist
    cd projeto-ia-petshop
 
 2. (Opcional) Crie e ative um ambiente virtual:
-
-   '''bash
+   ```bash
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1   # Windows
 
 3. Instale as dependências:
 
-   '''bash
    pip install pandas numpy scikit-learn matplotlib openpyxl
 
 4. Execute o programa:
